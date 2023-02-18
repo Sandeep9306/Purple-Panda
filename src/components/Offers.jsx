@@ -5,7 +5,7 @@ const Offers = () => {
   return (
     <>
       <section className="bg_secondary text-white">
-        <div className="container py-3">
+        <div className="container py-2">
           <div className="d-flex align-items-center justify-content-center">
             <img src={Gift} alt="Gift" />
             <p className="ff_montserrat fs_sm  mb-0 mx-2">

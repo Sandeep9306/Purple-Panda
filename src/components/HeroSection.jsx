@@ -27,7 +27,7 @@ import Footer from "./Footer";
 const HeroSection = () => {
   return (
     <>
-      <section className="bg_image position-relative ">
+      <section className="bg_image d-flex flex-column  position-relative min_height">
         <Offers />
         <NavBar />
         <img
@@ -41,7 +41,7 @@ const HeroSection = () => {
           className="position-absolute bottom-0 end-0 w-100  d-lg-none  z_index_1"
         />
 
-        <Container className="d-flex align-items-center my-5 position-relative">
+        <Container className="flex-grow-1 d-flex align-items-center position-relative flex-grow-1">
           <Row className="align-items-center text-center text-lg-start my-5">
             <Col lg={6}>
               <h1 className="ff_philosopher fs_8xl fw-bold lh_106">

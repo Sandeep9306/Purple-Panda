@@ -3,17 +3,23 @@ import { Col, Container, Row } from "react-bootstrap";
 import MushroomsGroup from "../Assets/images/png/MushroomsGroup.png";
 import Uwell from "../Assets/images/png/Uwell.png";
 import Plant from "../Assets/images/png/Plant.png";
+import BottomLine from "../Assets/images/png/BottomGradient.png";
 import Cart from "../Assets/images/png/CartPlant.png";
 import CBOBox from "../Assets/images/png/CBOBox.png";
 
 const About = () => {
   return (
     <>
-      <section className="  my-5 py-5 d-flex align-items-center about_Background">
-        <Container className="my-5 py-5">
+      <section className="  d-flex align-items-center about_Background position-relative">
+        <img
+          src={BottomLine}
+          alt="BottomLine"
+          className="position-absolute w-100 start-0 bottom-0"
+        />
+        <Container className="z_index_1">
           <Row className="align-items-center text-center my-5 text-lg-start">
-            <Col lg={6} className="my-4">
-              <div className="p-5 bg_blure position-relative line">
+            <Col lg={6} className="my-3">
+              <div className="p-3 p-lg-5 bg_blure position-relative line">
                 <h2 className="fs_4xl ff_philosopher fw-bold">
                   About <span className="color_primary_linear">Us</span>
                 </h2>
@@ -35,7 +41,7 @@ const About = () => {
                 </button>
               </div>
             </Col>
-            <Col lg={6} className="my-4">
+            <Col lg={6} className="my-3">
               <div className="Grid">
                 <img src={Cart} alt="Cart" className="grid_items1" />
                 <img src={Uwell} alt="Uwell" className="grid_items2" />
