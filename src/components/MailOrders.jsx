@@ -6,11 +6,17 @@ import Payment from "../Assets/images/svg/Payment.svg";
 import NumberOne from "../Assets/images/svg/NumberOne.svg";
 import NumberTwo from "../Assets/images/svg/NumberTwo.svg";
 import NumberThree from "../Assets/images/svg/NumberThree.svg";
+import BottomLine from "../Assets/images/png/BottomGradient.png";
 
 const MailOrders = () => {
   return (
     <>
-      <section className="mailOrder_background min-vh-100 d-flex align-items-center">
+      <section className="mailOrder_background d-flex align-items-center position-relative my-5 py-lg-5">
+        <img
+          src={BottomLine}
+          alt="BottomLine"
+          className="position-absolute w-100 start-0 bottom-0"
+        />
         <Container>
           <Row className="justify-content-center">
             <Col lg={9} className="text-center">
@@ -27,11 +33,11 @@ const MailOrders = () => {
               </p>
             </Col>
             <Col sm={11} md={6} lg={4} className="my-5 pt-5">
-              <div className="bgBlure rounded-5 p-4 position-relative">
+              <div className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
                 <img
                   src={NumberOne}
                   alt="NumberOne"
-                  className="position-absolute  numberPosition"
+                  className="position-absolute    numberPosition"
                 />
                 <img
                   src={DetailCheck}
@@ -45,11 +51,11 @@ const MailOrders = () => {
               </div>
             </Col>
             <Col sm={11} md={6} lg={4} className="my-5 pt-5">
-              <div className="bgBlure rounded-5 p-4 position-relative">
+              <div className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
                 <img
                   src={NumberTwo}
                   alt="NumberTwo"
-                  className="position-absolute  numberPosition"
+                  className="position-absolute   numberPosition"
                 />
                 <img
                   src={CartCheck}
@@ -62,12 +68,12 @@ const MailOrders = () => {
                 </p>
               </div>
             </Col>
-            <Col sm={11} md={6} lg={4} className="my-5 pt-5">
-              <div className="bgBlure rounded-5 p-4 position-relative">
+            <Col sm={11} md={6} lg={4} className="mt-5 pt-5">
+              <div className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
                 <img
                   src={NumberThree}
                   alt="NumberThree"
-                  className="position-absolute  numberPosition"
+                  className="position-absolute   numberPosition"
                 />
                 <img src={Payment} alt="Payment" className="pt-5 mt-4 pb-4" />
                 <p className="fs_sm lh_156 ff_montserrat mt-3 text_opacity">

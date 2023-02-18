@@ -25,9 +25,37 @@ import StoreHours from "./StoreHours";
 import Footer from "./Footer";
 
 const HeroSection = () => {
+  let mybutton = document.getElementById("myBtn");
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
   return (
     <>
       <section className="bg_image d-flex flex-column  position-relative min_height">
+        <button
+          className="go-top-text ff_montserrat"
+          onclick={() => topFunction()}
+          id="myBtn"
+          title="Go to top"
+        >
+          Top
+        </button>
         <Offers />
         <NavBar />
         <img

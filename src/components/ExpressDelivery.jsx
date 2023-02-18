@@ -12,7 +12,7 @@ const ExpressDelivery = () => {
               <img src={Cannabis} alt="Cannabis" className="w-100" />
             </Col>
             <Col lg={6} className="my-4 z_index_1">
-              <div className="p-5 bg_blure position-relative line">
+              <div className="p-3 p-lg-5 bg_blure position-relative line">
                 <h2 className="fs_4xl ff_philosopher fw-bold">
                   <span className=" color_primary_linear"> Express </span>
                   Cannabis Delivery

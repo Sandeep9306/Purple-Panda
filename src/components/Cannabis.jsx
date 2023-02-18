@@ -5,8 +5,10 @@ import TBBS from "../Assets/images/png/TBBS.png";
 import MedicalCannabis from "../Assets/images/png/MedicalCannabis.png";
 import PlantLeaf from "../Assets/images/png/PlantLeaf.png";
 import Microbites from "../Assets/images/png/Microbites.png";
+import Tilt from "react-parallax-tilt";
 
 const Cannabis = () => {
+  <Tilt className="parallax-effect"></Tilt>;
   return (
     <>
       <section className="   d-flex align-items-center about_Background">
@@ -63,19 +65,29 @@ const Cannabis = () => {
             </Col>
             <Col lg={5} className="my-4">
               <div className="Grid">
-                <img src={PlantLeaf} alt="PlantLeaf" className="grid_items1" />
-                <img src={BlackGold} alt="BlackGold" className="grid_items2" />
-                <img src={TBBS} alt="TBBS" className="grid_items3" />
-                <img
-                  src={Microbites}
-                  alt="Microbites"
-                  className="grid_items4"
-                />
-                <img
-                  src={MedicalCannabis}
-                  alt="MedicalCannabis"
-                  className="grid_items5"
-                />
+                <Tilt className="grid_items1 ">
+                  <img
+                    src={PlantLeaf}
+                    alt="PlantLeaf"
+                    className="w-100"
+                  />
+                </Tilt>
+                <Tilt className="grid_items2 ">
+                  <img src={BlackGold} alt="BlackGold" className="w-100" />
+                </Tilt>
+                <Tilt className="grid_items3 ">
+                  <img src={TBBS} alt="TBBS" className="w-100" />
+                </Tilt>
+                <Tilt className="grid_items4 ">
+                  <img src={Microbites} alt="Microbites" className="w-100" />
+                </Tilt>
+                <Tilt className="grid_items5 ">
+                  <img
+                    src={MedicalCannabis}
+                    alt="MedicalCannabis"
+                    className="w-100"
+                  />
+                </Tilt>
               </div>
             </Col>
           </Row>

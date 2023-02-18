@@ -6,7 +6,7 @@ import LeftSmallFlower from "../Assets/images/png/LeftSmallFlower.png";
 const DeliveryService = () => {
   return (
     <>
-      <section className="position-relative">
+      <section className="position-relative my-3">
         <Container className="ff_montserrat ">
           <img
             src={RightSmallFlower}
@@ -19,7 +19,7 @@ const DeliveryService = () => {
             className="position-absolute d-none d-md-block end-50 bottom-0"
           />
           <Row className="justify-content-center">
-            <Col lg={7} className="my-5 text-center">
+            <Col lg={7} className="my-3 my-lg-5 text-center">
               <h4 className="fw_semibold">
                 We’re based in both the{" "}
                 <span className="color_primary_linear">
@@ -33,7 +33,7 @@ const DeliveryService = () => {
               </p>
             </Col>
             <Col md={6} lg={6}>
-              <div className="d-flex align-items-center justify-content-center bgBlure p-5 my-3">
+              <div className="d-flex align-items-center justify-content-center border_effect bgBlure p-3 p-lg-5 my-3">
                 <div>
                   <div className="my-3 d-flex align-items-center ">
                     <span className="circle"></span>
@@ -55,7 +55,7 @@ const DeliveryService = () => {
               </div>
             </Col>
             <Col md={6} lg={6}>
-              <div className="d-flex align-items-center justify-content-center bgBlure p-5 my-3">
+              <div className="d-flex align-items-center justify-content-center border_effect bgBlure p-3 p-lg-5 my-3">
                 <div>
                   <div className="my-3 d-flex align-items-center ">
                     <span className="circle"></span>

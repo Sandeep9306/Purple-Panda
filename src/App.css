@@ -370,6 +370,144 @@ bottom: -10%;
   color: white;
   text-decoration: none;
 }
+.gradient{
+  position: relative;
+
+}
+.gradient::after{
+  position: absolute;
+  content: "";
+  height: 150px;
+  width: 150px;
+  background: var(--bg_primary_linear);
+  right: 10%;
+  bottom: 10%;
+  z-index: -1;
+  filter: blur(150px);
+  transform: translate(-50% , -50%);
+  opacity: 0;
+  transition: 0.2s linear;
+}
+.gradient:hover::after{
+  opacity: 1;
+  transition: 0.2s linear;
+
+}
+.gradient_2{
+  position: relative;
+
+}
+.gradient_2::after{
+  position: absolute;
+  content: "";
+  height: 150px;
+  width: 150px;
+  background: var(--bg_primary_linear);
+  left: 0%;
+  bottom: 0%;
+  /* z-index: -1; */
+  filter: blur(150px);
+  transform: translate(100% , -50%);
+  opacity: 0;
+  transition: 0.2s linear;
+}
+.gradient_2:hover::after{
+  opacity: 1;
+  transition: 0.2s linear;
+
+}
+.icon_hover{
+  transition: 0.2s;
+}
+.icon_hover:hover{
+  transform: scale(1.1);
+}
+/* .light_effect{
+  position: relative;
+ 
+} */
+/* .light_effect::after{
+position: absolute;
+content: "";
+height: 0%;
+width: 0%;
+background-color: rgba(255, 255, 255, 0.007);
+bottom: 0;
+left: 0;
+z-index: 1;
+transition: 0.2s linear;
+border-radius: 24px;
+
+} */
+
+
+/* .light_effect:hover::after{
+  width: 100%;
+  height: 100%;
+ overflow: hidden;
+} */
+
+.bounce_effect{
+  transition: 0.2s linear;
+
+}
+.bounce_effect:hover{
+transition: 0.2s linear;
+transform: translate(0% , -3%);
+}
+.gradient_circle{
+  position: relative;
+}
+.gradient_circle::after{
+  position: absolute;
+  content: "";
+  bottom: 20%;
+  left: 50%;
+  background: var(--bg_primary_linear);
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  transform: translate(-50% , -50%);
+  filter: blur(150px);
+  
+}
+  
+.bounce_effect_2{
+  transition: 0.2s linear;
+
+}
+.bounce_effect_2:hover{
+transition: 0.2s linear;
+transform: translate(0% , -10%);
+}
+.border_effect{
+   transition: 0.2s linear;
+}
+.border_effect:hover{
+   transition: 0.2s linear;
+   border: 1px solid #a40ce0 !important;
+}
+
+
+
+.go-top-text {
+	display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background:  var(--bg_primary_linear); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  border-radius: 50px;
+}
+
+
+
 /* Media Queries */
 /* 
 @media (min-width:576px ) {
@@ -421,7 +559,9 @@ bottom: -10%;
   border-radius: 0px 0px 0px 380px;
 }
   .translate_middle{
-  transform: translatey(-50% );
+    position: absolute;
+  transform: translatey(-55% );
+  right: 0;
 }
 .min_height{
 min-height: 100vh;

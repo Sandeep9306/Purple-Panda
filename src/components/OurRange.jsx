@@ -6,22 +6,22 @@ import LeftFlower from "../Assets/images/png/LeftFlower.png";
 const OurRange = () => {
   return (
     <>
-      <section className="my-lg-5 py-lg-5 d-flex align-items-center ">
+      <section className="my-lg-5 d-flex align-items-center ">
         <Container className="position-relative my-5">
           <img
             src={LeftFlower}
             alt="LeftFlower"
-            className="position-absolute start-0 bottom-0"
+            className="position-absolute d-none d-lg-block start-0 bottom-0"
           />
           <img
             src={RightFlower}
             alt="RightFlower"
-            className="position-absolute end-0  top-0"
+            className="position-absolute d-none d-lg-block end-0  top-0"
           />
-          <div className="bgBlure  p-5 text-center">
+          <div className="bgBlure p-3 p-lg-5 text-center">
             <Row className="align-items-center justify-content-center">
               <Col lg={7}>
-                <h2 className="fs_4xl ff_philosopher mb-5 fw-bold">
+                <h2 className="fs_4xl ff_philosopher mb-4 fw-bold">
                   Our <span className="color_primary_linear">Range</span>
                 </h2>
                 <p className="ff_montserrat fs_sm lh_156 ">

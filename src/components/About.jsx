@@ -6,8 +6,10 @@ import Plant from "../Assets/images/png/Plant.png";
 import BottomLine from "../Assets/images/png/BottomGradient.png";
 import Cart from "../Assets/images/png/CartPlant.png";
 import CBOBox from "../Assets/images/png/CBOBox.png";
+import Tilt from "react-parallax-tilt";
 
 const About = () => {
+  <Tilt className="parallax-effect"></Tilt>;
   return (
     <>
       <section className="  d-flex align-items-center about_Background position-relative">
@@ -43,15 +45,25 @@ const About = () => {
             </Col>
             <Col lg={6} className="my-3">
               <div className="Grid">
-                <img src={Cart} alt="Cart" className="grid_items1" />
-                <img src={Uwell} alt="Uwell" className="grid_items2" />
-                <img
-                  src={MushroomsGroup}
-                  alt="MushroomsGroup"
-                  className="grid_items3"
-                />
-                <img src={Plant} alt="Plant" className="grid_items4" />
-                <img src={CBOBox} alt="CBOBox" className="grid_items5" />
+                <Tilt className="grid_items1 ">
+                  <img src={Cart} alt="Cart" className="mx-0 w-100" />
+                </Tilt>
+                <Tilt className="grid_items2">
+                  <img src={Uwell} alt="Uwell" className="mx-0 w-100" />
+                </Tilt>
+                <Tilt className="grid_items3">
+                  <img
+                    src={MushroomsGroup}
+                    alt="MushroomsGroup"
+                    className=" w-100"
+                  />
+                </Tilt>
+                <Tilt className="grid_items4">
+                  <img src={Plant} alt="Plant" className="w-100" />
+                </Tilt>
+                <Tilt className="grid_items5">
+                  <img src={CBOBox} alt="CBOBox" className="w-100" />
+                </Tilt>
               </div>
             </Col>
           </Row>
