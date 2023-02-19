@@ -12,7 +12,7 @@ import Secure from "../Assets/images/svg/Secure.svg";
 const Features = () => {
   return (
     <>
-      <section className=" my-lg-5">
+      <section className=" my-5">
         <Container>
           <Row className="ff_montserrat fw_semibold justify-content-lg-between justify-content-around gradient_2">
             <Col lg={5} className="">

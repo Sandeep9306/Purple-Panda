@@ -6,6 +6,7 @@ const LowPrices = () => {
   return (
     <>
       <section className="my-5 py-5 d-flex align-items-center ">
+        
         <Container className="position-relative  ">
           <div className="bg_blure p-3">
             <Row className="align-items-center text-center text-lg-start pt-5  pb-0  pb-lg-5 column-reverse justify-content-lg-around gradient">

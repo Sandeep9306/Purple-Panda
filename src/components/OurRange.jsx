@@ -6,7 +6,7 @@ import LeftFlower from "../Assets/images/png/LeftFlower.png";
 const OurRange = () => {
   return (
     <>
-      <section className="my-lg-5 d-flex align-items-center ">
+      <section className=" d-flex align-items-center ">
         <Container className="position-relative my-5">
           <img
             src={LeftFlower}

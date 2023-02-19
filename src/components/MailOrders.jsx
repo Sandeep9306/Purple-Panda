@@ -11,7 +11,7 @@ import BottomLine from "../Assets/images/png/BottomGradient.png";
 const MailOrders = () => {
   return (
     <>
-      <section className="mailOrder_background d-flex align-items-center position-relative my-5 py-lg-5">
+      <section className="mailOrder_background d-flex align-items-center position-relative mb-5 pt-lg-5">
         <img
           src={BottomLine}
           alt="BottomLine"

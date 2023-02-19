@@ -5,7 +5,8 @@ import Cannabis from "../Assets/images/png/CannabisLeaves.png";
 const ExpressDelivery = () => {
   return (
     <>
-      <section className=" d-flex align-items-center ">
+      <section className=" d-flex align-items-center position-relative">
+        <div className="gradient_glow_right"></div>
         <Container>
           <Row className="align-items-center text-center text-lg-start">
             <Col lg={6} className="my-4">

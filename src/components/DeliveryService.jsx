@@ -7,6 +7,7 @@ const DeliveryService = () => {
   return (
     <>
       <section className="position-relative my-3">
+        <div className="gradient_glow_left"></div>
         <Container className="ff_montserrat ">
           <img
             src={RightSmallFlower}

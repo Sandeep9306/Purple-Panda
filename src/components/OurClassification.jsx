@@ -8,6 +8,7 @@ const OurClassification = () => {
   return (
     <>
       <section className="Classification_background  position-relative  py-5 d-flex align-items-center">
+        <div className="gradient_glow_left"></div>
         <img
           src={ClassificationPlant}
           alt="ClassificationPlant"

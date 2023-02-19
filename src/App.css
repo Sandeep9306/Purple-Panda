@@ -498,6 +498,48 @@ transform: translate(0% , -10%);
   transition: 0.2s linear;
   border: 1px solid #a40ce0;
 } 
+.gradient_glow_left{
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0%;
+  transform: translate(-50% , 50%);
+  z-index: 2;
+  height: 210px;
+  width: 210px;
+  background: #9F00FF;
+  border-radius: 200px;
+  filter: blur(200px);
+   animation: blink 5s 1.2s infinite linear alternate;
+}
+.gradient_glow_right{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0%;
+  transform: translate(50% , 0%);
+  z-index: 1;
+  height: 210px;
+  width: 210px;
+  background: #9F00FF;
+  border-radius: 200px;
+  filter: blur(200px);
+   animation: blink 5s 1.2s infinite linear alternate;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  33.33333% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
 .go-top-text {
 	display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */

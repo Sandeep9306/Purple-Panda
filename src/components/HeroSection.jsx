@@ -48,6 +48,7 @@ const HeroSection = () => {
   return (
     <>
       <section className="bg_image d-flex flex-column  position-relative min_height">
+        <div className="gradient_glow_left"></div>
         <button
           className="go-top-text ff_montserrat"
           onclick={() => topFunction()}

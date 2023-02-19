@@ -13,6 +13,7 @@ const Cannabis = () => {
   return (
     <>
       <section className="position-relative   d-flex align-items-center about_Background">
+        <div className="gradient_glow_right"></div>
         <img
           src={BottomLine}
           alt="BottomLine"

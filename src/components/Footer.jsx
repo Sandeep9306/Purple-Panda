@@ -5,7 +5,8 @@ import FooterLogo from "../Assets/images/png/FooterLogo.png";
 const Footer = () => {
   return (
     <>
-      <section className="text-center pt-5 Footer_background">
+      <section className="text-center pt-5 Footer_background position-relative">
+        <div className="gradient_glow_right"></div>
         <Container>
           <Row className="justify-content-center">
             <Col lg={8}>
