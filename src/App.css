@@ -487,9 +487,17 @@ transform: translate(0% , -10%);
    transition: 0.2s linear;
    border: 1px solid #a40ce0 !important;
 }
+.rotate_image{
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
 
-
-
+.border_effect{
+     transition: 0.2s linear;
+}
+.border_effect:hover{
+  transition: 0.2s linear;
+  border: 1px solid #a40ce0;
+} 
 .go-top-text {
 	display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */

@@ -16,9 +16,9 @@ const OurClassification = () => {
         <Container>
           <Row>
             <Col lg={6} className="">
-              <div className="p-5 bg_blure position-relative border_purple">
+              <div className="p-3 p-md-5 bg_blure  border_effect position-relative border_purple">
                 <h2 className="fs_4xl ff_philosopher fw-bold">
-                  Our 
+                  Our
                   <span className="color_primary_linear"> Classifications</span>
                 </h2>
                 <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0">
@@ -26,32 +26,32 @@ const OurClassification = () => {
                   quality and price, with our levels classed at:
                 </p>
                 <div className="ff_montserrat  my-4 ">
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
                   <h4 className="fw_semibold my-2 mb-0">2-Star</h4>
                   <p>Very affordable , entry level quality</p>
                 </div>
                 <div className="ff_montserrat  my-4 ">
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
                   <h4 className="fw_semibold my-2 mb-0">3-Star</h4>
                   <p>Very affordable , entry level quality</p>
                 </div>
                 <div className="ff_montserrat  my-4 ">
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
                   <h4 className="fw_semibold my-2 mb-0">4-Star</h4>
                   <p>Very affordable , entry level quality</p>
                 </div>
                 <div className="ff_montserrat  my-4 ">
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
-                  <img className="me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
+                  <img className="bounce_effect_2 me-2" src={Star} alt="Star" />
                   <h4 className="fw_semibold my-2 mb-0">5-Star</h4>
                   <p>Very affordable , entry level quality</p>
                 </div>

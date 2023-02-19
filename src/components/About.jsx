@@ -21,7 +21,7 @@ const About = () => {
         <Container className="z_index_1">
           <Row className="align-items-center text-center my-5 text-lg-start">
             <Col lg={6} className="my-3">
-              <div className="p-3 p-lg-5 bg_blure position-relative line">
+              <div className="p-3 p-lg-5  bg_blure position-relative line">
                 <h2 className="fs_4xl ff_philosopher fw-bold">
                   About <span className="color_primary_linear">Us</span>
                 </h2>

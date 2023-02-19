@@ -6,13 +6,19 @@ import MedicalCannabis from "../Assets/images/png/MedicalCannabis.png";
 import PlantLeaf from "../Assets/images/png/PlantLeaf.png";
 import Microbites from "../Assets/images/png/Microbites.png";
 import Tilt from "react-parallax-tilt";
+import BottomLine from "../Assets/images/png/BottomGradient.png";
 
 const Cannabis = () => {
   <Tilt className="parallax-effect"></Tilt>;
   return (
     <>
-      <section className="   d-flex align-items-center about_Background">
-        <Container className="my-5 py-5">
+      <section className="position-relative   d-flex align-items-center about_Background">
+        <img
+          src={BottomLine}
+          alt="BottomLine"
+          className="position-absolute w-100 start-0 bottom-0"
+        />
+        <Container className=" py-5">
           <Row className="align-items-center justify-content-center ">
             <Col lg={8} className="text-center">
               <h4 className="ff_philosopher fw-bold fs_4xl">Cannabis</h4>
@@ -25,7 +31,7 @@ const Cannabis = () => {
               </p>
             </Col>
             <Col lg={7} className="my-4 ">
-              <div className="p-5 bg_blure position-relative line">
+              <div className="p-5 bg_blure  position-relative line">
                 <h2 className="fs_4xl ff_philosopher fw-bold  text-lg-start text-center">
                   Strain <span className="color_primary_linear">Families</span>
                 </h2>
@@ -66,11 +72,7 @@ const Cannabis = () => {
             <Col lg={5} className="my-4">
               <div className="Grid">
                 <Tilt className="grid_items1 ">
-                  <img
-                    src={PlantLeaf}
-                    alt="PlantLeaf"
-                    className="w-100"
-                  />
+                  <img src={PlantLeaf} alt="PlantLeaf" className="w-100" />
                 </Tilt>
                 <Tilt className="grid_items2 ">
                   <img src={BlackGold} alt="BlackGold" className="w-100" />
