@@ -1,10 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Footer from "./Footer";
 
 const StoreHours = () => {
   return (
     <>
-      <section className=" my-5 text-center ">
+      <section className=" mt-5 text-center position-relative overflow-hidden">
+        <div className="gradient_glow_right_2"></div>
         <Container>
           <h2 className="fs_4xl ff_philosopher fw-bold">
             Store
@@ -40,6 +42,7 @@ const StoreHours = () => {
             </h4>
           </div>
         </Container>
+        <Footer />
       </section>
     </>
   );

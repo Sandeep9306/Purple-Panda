@@ -12,29 +12,31 @@ const DeliveryService = () => {
           <img
             src={RightSmallFlower}
             alt="RightSmallFlower"
+            data-aos="fade-left"
             className="position-absolute d-none d-md-block flower_position"
           />
           <img
             src={LeftSmallFlower}
             alt="RightSmallFlower"
             className="position-absolute d-none d-md-block end-50 bottom-0"
+            data-aos="fade-right"
           />
           <Row className="justify-content-center">
             <Col lg={7} className="my-3 my-lg-5 text-center">
-              <h4 className="fw_semibold">
+              <h4 className="fw_semibold" data-aos="fade-right">
                 We’re based in both the{" "}
                 <span className="color_primary_linear">
                   Greater Toronto Area
                 </span>{" "}
                 , with our delivery service covering:
               </h4>
-              <p className="text_opacity mt-3 mb-0">
+              <p className="text_opacity mt-3 mb-0" data-aos="fade-left">
                 If you’re in any of these cities and need a little pick me up,
                 you know where to go!
               </p>
             </Col>
             <Col md={6} lg={6}>
-              <div className="d-flex align-items-center justify-content-center border_effect bgBlure p-3 p-lg-5 my-3">
+              <div className="d-flex align-items-center justify-content-center border_effect bgBlure p-3 p-lg-5 my-3" data-aos="fade-right">
                 <div>
                   <div className="my-3 d-flex align-items-center ">
                     <span className="circle"></span>
@@ -56,7 +58,7 @@ const DeliveryService = () => {
               </div>
             </Col>
             <Col md={6} lg={6}>
-              <div className="d-flex align-items-center justify-content-center border_effect bgBlure p-3 p-lg-5 my-3">
+              <div className="d-flex align-items-center justify-content-center border_effect bgBlure p-3 p-lg-5 my-3" data-aos="fade-left">
                 <div>
                   <div className="my-3 d-flex align-items-center ">
                     <span className="circle"></span>

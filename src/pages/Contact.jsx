@@ -2,12 +2,18 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Form from "../components/Form";
 import NavBar from "../components/NavBar";
+import BottomLine from "../Assets/images/png/bottomImage.png";
 import Offers from "../components/Offers";
 
 const Contact = () => {
   return (
     <>
-      <section className="Contact_background">
+      <section className="Contact_background  position-relative overflow-hidden ">
+        <img
+          src={BottomLine}
+          alt="BottomLine"
+          className="position-absolute w-100 start-0  bottom-0"
+        />
         <Offers />
         <NavBar />
         <Container>

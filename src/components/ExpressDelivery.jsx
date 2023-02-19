@@ -9,16 +9,27 @@ const ExpressDelivery = () => {
         <div className="gradient_glow_right"></div>
         <Container>
           <Row className="align-items-center text-center text-lg-start">
-            <Col lg={6} className="my-4">
-              <img src={Cannabis} alt="Cannabis" className="w-100" />
+            <Col lg={6}>
+              <img
+                src={Cannabis}
+                alt="Cannabis"
+                className="w-100"
+                data-aos="fade-right"
+              />
             </Col>
-            <Col lg={6} className="my-4 z_index_1">
+            <Col lg={6} className="mt-4 mt-lg-0 z_index_1">
               <div className="p-3 p-lg-5 bg_blure position-relative line">
-                <h2 className="fs_4xl ff_philosopher fw-bold">
+                <h2
+                  className="fs_4xl ff_philosopher fw-bold"
+                  data-aos="fade-left"
+                >
                   <span className=" color_primary_linear"> Express </span>
                   Cannabis Delivery
                 </h2>
-                <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0">
+                <p
+                  className="fs_sm ff_montserrat lh_156 mt-3 mb-0"
+                  data-aos="fade-left"
+                >
                   One of the ways that we set ourselves apart from your average
                   dispensary is through our express delivery service. We’ve all
                   been there – work has finished early and you’ve gotten home,

@@ -22,8 +22,16 @@ const Cannabis = () => {
         <Container className=" py-5">
           <Row className="align-items-center justify-content-center ">
             <Col lg={8} className="text-center">
-              <h4 className="ff_philosopher fw-bold fs_4xl">Cannabis</h4>
-              <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0">
+              <h4
+                className="ff_philosopher fw-bold fs_4xl"
+                data-aos="fade-right"
+              >
+                Cannabis
+              </h4>
+              <p
+                className="fs_sm ff_montserrat lh_156 mt-3 mb-0"
+                data-aos="fade-left"
+              >
                 While we stock all sorts of products to make you feel great,
                 we’re experts and lovers of cannabis at heart. We offer a wide
                 range of buds each with different highs, flavors, and aromas, so
@@ -33,14 +41,23 @@ const Cannabis = () => {
             </Col>
             <Col lg={7} className="my-4 ">
               <div className="p-5 bg_blure  position-relative line">
-                <h2 className="fs_4xl ff_philosopher fw-bold  text-lg-start text-center">
+                <h2
+                  className="fs_4xl ff_philosopher fw-bold  text-lg-start text-center"
+                  data-aos="fade-right"
+                >
                   Strain <span className="color_primary_linear">Families</span>
                 </h2>
-                <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0 text-lg-start text-center">
+                <p
+                  className="fs_sm ff_montserrat lh_156 mt-3 mb-0 text-lg-start text-center"
+                  data-aos="fade-right"
+                >
                   We stock the three main families of cannabis at Purple Panda,
                   each of which has its own qualities.
                 </p>
-                <div className="d-flex align-items-center my-3 ">
+                <div
+                  className="d-flex align-items-center my-3 "
+                  data-aos="fade-right"
+                >
                   <h4 className="ff_montserrat fw_semibold fs_lg mb-0">
                     Indica:
                   </h4>
@@ -49,7 +66,10 @@ const Cannabis = () => {
                     of the day and for treating stress and anxiety.
                   </p>
                 </div>
-                <div className="d-flex align-items-center my-3 ">
+                <div
+                  className="d-flex align-items-center my-3 "
+                  data-aos="fade-right"
+                >
                   <h4 className="ff_montserrat fw_semibold fs_lg mb-0">
                     Sativa:
                   </h4>
@@ -58,7 +78,10 @@ const Cannabis = () => {
                     perfect for a sunny summer’s day with friends!
                   </p>
                 </div>
-                <div className="d-flex align-items-center my-3 ">
+                <div
+                  className="d-flex align-items-center my-3 "
+                  data-aos="fade-right"
+                >
                   <h4 className="ff_montserrat fw_semibold fs_lg mb-0">
                     Hybrid:
                   </h4>

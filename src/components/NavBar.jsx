@@ -24,27 +24,43 @@ const NavBar = () => {
         <Container>
           <div className="d-flex justify-content-between align-items-center ">
             <a href="" className="nav-link">
-              <img src={Logo} alt="Logo" />
+              <Link to="/" className="nav-link">
+                <img src={Logo} alt="Logo" />
+              </Link>
             </a>
-            <ul className=" ff_montserrat fs_sm justify-content-between align-items-center mb-0 z_index_1 d-none d-lg-flex">
+            <ul className=" justify-content-between align-items-center mb-0 z_index_1 d-none d-lg-flex">
               <li className="position-relative">
-                <a href="" className="mx-4 bottom_line text nav-link ">
-                  HOME
-                </a>
+                <Link to="/" className="nav-link">
+                  <a
+                    href=""
+                    className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link "
+                  >
+                    HOME
+                  </a>
+                </Link>
               </li>
               <li className="position-relative">
-                <a href="" className="mx-4 bottom_line text nav-link">
+                <a
+                  href=""
+                  className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
+                >
                   SHOP
                 </a>
               </li>
               <li className="position-relative">
-                <a href="" className="mx-4 bottom_line text nav-link">
+                <a
+                  href=""
+                  className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
+                >
                   ABOUT
                 </a>
               </li>
               <Link to="/contact" className="nav-link">
                 <li className="position-relative">
-                  <a href="" className="mx-4 bottom_line text nav-link">
+                  <a
+                    href=""
+                    className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
+                  >
                     CONTACT
                   </a>
                 </li>
@@ -78,10 +94,7 @@ const NavBar = () => {
                 />
               </a>
 
-              <a
-                href=""
-                className="nav-link d-inline-block Cart "
-              >
+              <a href="" className="nav-link d-inline-block Cart ">
                 <img src={Cart} alt="cart" className="me-4  ms-4 ms-xl-0 " />
               </a>
 
@@ -97,27 +110,42 @@ const NavBar = () => {
                   onClick={() => setnavBar(false)}
                 />
                 <li className="position-relative">
-                  <a href="" className="mx-4 bottom_line  nav-link fw-bold">
+                  <a
+                    href=""
+                    className="mx-4 bottom_line ff_montserrat fs_sm   nav-link fw-bold"
+                  >
                     HOME
                   </a>
                 </li>
                 <li className="position-relative">
-                  <a href="" className="mx-4 bottom_line text nav-link">
+                  <a
+                    href=""
+                    className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
+                  >
                     SHOP
                   </a>
                 </li>
                 <li className="position-relative">
-                  <a href="" className="mx-4 bottom_line text nav-link">
+                  <a
+                    href=""
+                    className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
+                  >
                     ABOUT
                   </a>
                 </li>
                 <li className="position-relative">
-                  <a href="" className="mx-4 bottom_line text nav-link">
+                  <a
+                    href=""
+                    className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
+                  >
                     CONTACT
                   </a>
                 </li>
                 <li className="position-relative">
-                  <a href="" className="mx-4 bottom_line text nav-link">
+                  <a
+                    href=""
+                    className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
+                  >
                     FAQ
                   </a>
                 </li>

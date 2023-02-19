@@ -20,11 +20,11 @@ const MailOrders = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg={9} className="text-center">
-              <h2 className="fs_4xl ff_philosopher fw-bold">
+              <h2 className="fs_4xl ff_philosopher fw-bold" data-aos="fade-right">
                 Canada Wide{" "}
                 <span className="color_primary_linear"> Mail Orders</span>
               </h2>
-              <p className="ff_montserrat fs_sm lh_156 ">
+              <p className="ff_montserrat fs_sm lh_156 " data-aos="fade-left">
                 Purple Panda offers discreet mail orders to all provinces in
                 Canada, we have new list of products everyday to serve your
                 needs whether its recreational or medinical use. We ship the
@@ -33,7 +33,7 @@ const MailOrders = () => {
               </p>
             </Col>
             <Col sm={11} md={6} lg={4} className="my-5 pt-5">
-              <div className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
+              <div  data-aos="fade-right"className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
                 <img
                   src={NumberOne}
                   alt="NumberOne"
@@ -51,7 +51,7 @@ const MailOrders = () => {
               </div>
             </Col>
             <Col sm={11} md={6} lg={4} className="my-5 pt-5">
-              <div className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
+              <div  data-aos="fade-up"className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
                 <img
                   src={NumberTwo}
                   alt="NumberTwo"
@@ -69,7 +69,7 @@ const MailOrders = () => {
               </div>
             </Col>
             <Col sm={11} md={6} lg={4} className="mt-5 pt-5">
-              <div className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
+              <div  data-aos="fade-left"className="bgBlure rounded-5 gradient_circle p-4 position-relative border_effect bounce_effect">
                 <img
                   src={NumberThree}
                   alt="NumberThree"

@@ -2,10 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Phone from "../Assets/images/svg/Phone.svg";
 import Mail from "../Assets/images/svg/Mail.svg";
-import Cannabis from "../Assets/images/png/CannabisLeaves.png";
 import Contact from "../Assets/images/png/ContactForm.png";
-import Footer from "./Footer";
 import StoreHours from "./StoreHours";
+
 
 const Form = () => {
   return (
@@ -87,7 +86,7 @@ const Form = () => {
           </Row>
         </Container>
         <StoreHours />
-        <Footer />
+        
       </section>
     </>
   );

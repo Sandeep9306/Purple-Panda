@@ -281,7 +281,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 
 .flower_position{
   top: 47%;
-  right: 12%;
+  right: 15%;
 }
 
 .mailOrder_background{
@@ -405,7 +405,7 @@ bottom: -10%;
   background: var(--bg_primary_linear);
   left: 0%;
   bottom: 0%;
-  /* z-index: -1; */
+  z-index: 1;
   filter: blur(150px);
   transform: translate(100% , -50%);
   opacity: 0;
@@ -509,7 +509,7 @@ transform: translate(0% , -10%);
   width: 210px;
   background: #9F00FF;
   border-radius: 200px;
-  filter: blur(200px);
+  filter: blur(180px);
    animation: blink 5s 1.2s infinite linear alternate;
 }
 .gradient_glow_right{
@@ -523,7 +523,21 @@ transform: translate(0% , -10%);
   width: 210px;
   background: #9F00FF;
   border-radius: 200px;
-  filter: blur(200px);
+  filter: blur(180px);
+   animation: blink 5s 1.2s infinite linear alternate;
+}
+.gradient_glow_right_2{
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 30%;
+  transform: translate(50% , 0%);
+  z-index: 1;
+  height: 210px;
+  width: 210px;
+  background: #9F00FF;
+  border-radius: 200px;
+  filter: blur(180px);
    animation: blink 5s 1.2s infinite linear alternate;
 }
 @keyframes blink {
@@ -537,7 +551,7 @@ transform: translate(0% , -10%);
   }
   100% {
     opacity: 0;
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 }
 .go-top-text {

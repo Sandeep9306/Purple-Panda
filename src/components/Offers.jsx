@@ -4,7 +4,7 @@ import Gift from "../Assets/images/svg/Gift.svg";
 const Offers = () => {
   return (
     <>
-      <section className="bg_secondary text-white">
+      <section className="bg_secondary text-white " data-aos="fade-zoom-in">
         <div className="container py-2">
           <div className="d-flex align-items-center justify-content-center">
             <img src={Gift} alt="Gift" />
@@ -14,7 +14,6 @@ const Offers = () => {
             </p>
             <a href="" className="ms-2 fw_extrabold color_primary_linear">
               Shop Now
-             
             </a>
           </div>
         </div>
@@ -23,4 +22,4 @@ const Offers = () => {
   );
 };
 
-export default Offers;
+export default Offers;  

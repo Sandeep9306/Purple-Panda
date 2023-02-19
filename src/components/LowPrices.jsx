@@ -6,29 +6,37 @@ const LowPrices = () => {
   return (
     <>
       <section className="my-5 py-5 d-flex align-items-center ">
-        
         <Container className="position-relative  ">
-          <div className="bg_blure p-3">
+          <div className="bg_blure p-3" data-aos="fade-zoom-in">
             <Row className="align-items-center text-center text-lg-start pt-5  pb-0  pb-lg-5 column-reverse justify-content-lg-around gradient">
               <Col lg={6} className="my-4 z_index_1 ps-lg-5 ">
-                <h2 className="fs_4xl ff_philosopher fw-bold">
+                <h2
+                  className="fs_4xl ff_philosopher fw-bold"
+                  data-aos="fade-right"
+                >
                   High
                   <span className=" color_primary_linear"> Thoughts </span>
                   ,Low
                   <span className=" color_primary_linear"> Prices </span>
                 </h2>
-                <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0">
+                <p
+                  className="fs_sm ff_montserrat lh_156 mt-3 mb-0"
+                  data-aos="fade-right"
+                >
                   We pride ourselves on supplying premium, top-shelf weed
                   without the top-shelf markups. Some dispensaries will charge
                   an arm and a leg for the newest “flavors”, but we believe in
                   fair, affordable prices for good products at every level of
                   quality and breed.
                 </p>
-                <button className="border-0 bg_linear text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md mt-5 bg_hover">
+                <button
+                  className="border-0 bg_linear text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md mt-5 bg_hover"
+                  data-aos="fade-right"
+                >
                   GIVE PURPLE PANDA A GO
                 </button>
               </Col>
-              <Col lg={5} className="z_index_n1 ">
+              <Col lg={5} className="z_index_n1 " data-aos="fade-left">
                 <img
                   src={Mushroom}
                   alt="Mushroom"

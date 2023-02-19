@@ -21,11 +21,20 @@ const About = () => {
         <Container className="z_index_1">
           <Row className="align-items-center text-center my-5 text-lg-start">
             <Col lg={6} className="my-3">
-              <div className="p-3 p-lg-5  bg_blure position-relative line">
-                <h2 className="fs_4xl ff_philosopher fw-bold">
+              <div
+                className="p-3 p-lg-5  bg_blure position-relative line"
+              
+              >
+                <h2
+                  className="fs_4xl ff_philosopher fw-bold"
+                  data-aos="fade-right"
+                >
                   About <span className="color_primary_linear">Us</span>
                 </h2>
-                <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0">
+                <p
+                  className="fs_sm ff_montserrat lh_156 mt-3 mb-0"
+                  data-aos="fade-right"
+                >
                   Purple Panda is a Canadian online cannabis dispensary with a
                   passion for good weed and even better customer service. We all
                   remember the days of waiting for scary strangers on street
@@ -38,31 +47,34 @@ const About = () => {
                   stock, you can also get your fill of edibles, vapes, CBD,
                   extracts, and even buy magic mushrooms online from our store.
                 </p>
-                <button className="border-0 bg_linear text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md mt-5 bg_hover">
+                <button
+                  className="border-0 bg_linear text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md mt-5 bg_hover"
+                  data-aos="fade-right"
+                >
                   READ MORE
                 </button>
               </div>
             </Col>
             <Col lg={6} className="my-3">
               <div className="Grid">
-                <Tilt className="grid_items1 ">
-                  <img src={Cart} alt="Cart" className="mx-0 w-100" />
+                <Tilt  className="grid_items1 ">
+                  <img data-aos="fade-left" src={Cart} alt="Cart" className="mx-0 w-100" />
                 </Tilt>
-                <Tilt className="grid_items2">
-                  <img src={Uwell} alt="Uwell" className="mx-0 w-100" />
+                <Tilt  className="grid_items2">
+                  <img data-aos="fade-left" src={Uwell} alt="Uwell" className="mx-0 w-100" />
                 </Tilt>
-                <Tilt className="grid_items3">
-                  <img
+                <Tilt  className="grid_items3">
+                  <img data-aos="fade-left"
                     src={MushroomsGroup}
                     alt="MushroomsGroup"
                     className=" w-100"
                   />
                 </Tilt>
-                <Tilt className="grid_items4">
-                  <img src={Plant} alt="Plant" className="w-100" />
+                <Tilt  className="grid_items4">
+                  <img data-aos="fade-left" src={Plant} alt="Plant" className="w-100" />
                 </Tilt>
-                <Tilt className="grid_items5">
-                  <img src={CBOBox} alt="CBOBox" className="w-100" />
+                <Tilt  className="grid_items5">
+                  <img data-aos="fade-left" src={CBOBox} alt="CBOBox" className="w-100" />
                 </Tilt>
               </div>
             </Col>
