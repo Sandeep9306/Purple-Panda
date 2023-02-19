@@ -22,40 +22,28 @@ import PopularItems from "./PopularItems";
 import Blogs from "./Blogs";
 import Detail from "./Detail";
 import StoreHours from "./StoreHours";
-import Footer from "./Footer";
+import BackToTop from "react-back-to-top";
 
 const HeroSection = () => {
-  // let mybutton = document.getElementById("myBtn");
-  // window.onscroll = function () {
-  //   scrollFunction();
-  // };
-  // function scrollFunction() {
-  //   if (
-  //     document.body.scrollTop > 20 ||
-  //     document.documentElement.scrollTop > 20
-  //   ) {
-  //     mybutton.style.display = "block";
-  //   } else {
-  //     mybutton.style.display = "none";
-  //   }
-  // }
-
-  // function topFunction() {
-  //   document.body.scrollTop = 0; // For Safari
-  //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  // }
 
   return (
     <>
       <section className="bg_image d-flex flex-column  position-relative min_height">
         <div className="gradient_glow_left"></div>
-        
+        <BackToTop
+          showOnScrollUp
+          showAt={100}
+          speed={1500}
+          easing="easeInOutQuint"
+        >
+          <span>scroll up</span>
+        </BackToTop>
         <Offers />
         <NavBar />
         <img
           src={BottomGradient}
           alt="BottomGradient"
-          className="position-absolute bottom-0 end-0 w-75 d-none d-lg-block   z_index_1"
+          className="position-absolute bottom-0 end-0 Bottom_Gradient d-none d-lg-block   z_index_1"
         />
         <img
           src={BottomGradient}
@@ -114,7 +102,6 @@ const HeroSection = () => {
       <Blogs />
       <Detail />
       <StoreHours />
-      {/* <Footer /> */}
     </>
   );
 };

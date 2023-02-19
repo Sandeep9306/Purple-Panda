@@ -5,6 +5,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 :root{
 
@@ -16,12 +17,12 @@
   --fs_xxsm: 12px;
   --fs_xsm: 14px;
   --fs_sm: 16px;
-  --fs_md: 20px;
-  --fs_lg: 24px;
-  --fs_xl: 32px;
-  --fs_xxl: 35px;
-  --fs_4xl: 48px;
-  --fs_8xl: 80px;
+  --fs_md: 18px;
+  --fs_lg: 20px;
+  --fs_xl: 24px;
+  --fs_xxl: 28px;
+  --fs_4xl: 35px;
+  --fs_8xl: 48px;
 
    /* Font Weight */
    --fw_extraBold: 800;
@@ -123,6 +124,9 @@
   background-color: transparent;
   color: white;
   margin: auto;
+}
+.Bottom_Gradient{
+  width: 70%;
 }
 .lh_106{
   line-height: 106%;
@@ -255,7 +259,6 @@ transform: matrix(1, 0, 0, -1, 0, 0);
    transition: 0.4s ease-in-out all !important;
 }
 .Cart:hover{
-  /* transition: 0.2s ease-in-out; */
   transform: translateY(-25%);
 }
 
@@ -422,30 +425,6 @@ bottom: -10%;
 .icon_hover:hover{
   transform: scale(1.1);
 }
-/* .light_effect{
-  position: relative;
- 
-} */
-/* .light_effect::after{
-position: absolute;
-content: "";
-height: 0%;
-width: 0%;
-background-color: rgba(255, 255, 255, 0.007);
-bottom: 0;
-left: 0;
-z-index: 1;
-transition: 0.2s linear;
-border-radius: 24px;
-
-} */
-
-
-/* .light_effect:hover::after{
-  width: 100%;
-  height: 100%;
- overflow: hidden;
-} */
 
 .bounce_effect{
   transition: 0.2s linear;
@@ -555,63 +534,48 @@ transform: translate(0% , -10%);
   }
 }
 .go-top-text {
-	display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background:  var(--bg_primary_linear); /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
+	display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99;
+  border: none;
+  outline: none; 
+  background:  var(--bg_primary_linear); 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
   border-radius: 50px;
 }
 
 
 
 /* Media Queries */
-/* 
-@media (min-width:576px ) {
-.smoke_image{
-  position: absolute;
-  left: 3%;
-  z-index: 1;
-  top: 9%;
-  height: 200px;
-  width: 200px;
-  border-radius: 0px 0px 0px 380px;
-}
+
+@media (min-width:992px ) {
+  :root{
+
+/* Font Family */
+  --ff_philosopher:'Philosopher';
+  --ff_montserrat:'Montserrat';
+
+  /* Font Size */
+  --fs_xxsm: 12px;
+  --fs_xsm: 14px;
+  --fs_sm: 16px;
+  --fs_md: 20px;
+  --fs_lg: 24px;
+  --fs_xl: 32px;
+  --fs_xxl: 35px;
+  --fs_4xl: 48px;
+  --fs_8xl: 80px;
+
+   
 }
 
-@media (min-width:768px ) {
-.smoke_image{
-  position: absolute;
-  left: 4%;
-  z-index: 1;
-  top: 13%;
-  height: 240px;
-  width: 240px;
-  border-radius: 0px 0px 0px 380px;
+
 }
-}
-@media (min-width:992px ) {
-.smoke_image{
-  position: absolute;
-  left: -8%;
-  z-index: 1;
-  top: -6%;
-  height: 240px;
-  width: 240px;
-  border-radius: 0px 0px 0px 380px;
-}
-  .translate_middle{
-  transform: translatey(-48% );
-}
-}
-} */
 @media (min-width:1200px) {
 .smoke_image{
   position: absolute;
@@ -630,19 +594,7 @@ transform: translate(0% , -10%);
 .min_height{
 min-height: 100vh;
 }}
-/* @media (min-width:1400px) {
-.smoke_image{
-  position: absolute;
-  left: 3%;
-  z-index: 1;
-  top: 9%;
-  height: 240px;
-  width: 240px;
-  border-radius: 0px 0px 0px 380px;
-}
-.translate_middle{
-  transform: translatey(-58% );
-} */
+
 
   
 

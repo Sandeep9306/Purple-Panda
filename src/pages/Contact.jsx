@@ -18,8 +18,8 @@ const Contact = () => {
         <NavBar />
         <Container>
           <div className="my-5 text-center py-5">
-            <h2 className="fs_4xl ff_philosopher  ">Contact</h2>
-            <p className="ff_montserrat mb-5">Home &#62; Contact</p>
+            <h2 className="fs_4xl ff_philosopher  " data-aos="fade-down">Contact</h2>
+            <p className="ff_montserrat mb-5" data-aos="fade-up">Home &#62; Contact</p>
           </div>
         </Container>
       </section>

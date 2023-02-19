@@ -25,10 +25,13 @@ const NavBar = () => {
           <div className="d-flex justify-content-between align-items-center ">
             <a href="" className="nav-link">
               <Link to="/" className="nav-link">
-                <img src={Logo} alt="Logo" />
+                <img src={Logo} alt="Logo" data-aos="fade-right" />
               </Link>
             </a>
-            <ul className=" justify-content-between align-items-center mb-0 z_index_1 d-none d-lg-flex">
+            <ul
+              className=" justify-content-between align-items-center mb-0 z_index_1 d-none d-lg-flex"
+              data-aos="fade-left"
+            >
               <li className="position-relative">
                 <Link to="/" className="nav-link">
                   <a
@@ -98,7 +101,7 @@ const NavBar = () => {
                 <img src={Cart} alt="cart" className="me-4  ms-4 ms-xl-0 " />
               </a>
 
-              <button className=" bg_linear bg_hover text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md border-0">
+              <button className=" bg_linear bg_hover text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md border-0"  >
                 SIGN IN
               </button>
             </ul>

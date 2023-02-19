@@ -17,7 +17,10 @@ const Blogs = () => {
           className="position-absolute start-0 bottom-0 w-100"
         />
         <Container className="">
-          <h2 className="fs_4xl ff_philosopher fw-bold text-center   ">
+          <h2
+            className="fs_4xl ff_philosopher fw-bold text-center   "
+            data-aos="fade-right"
+          >
             Latest <span className="color_primary_linear">Blogs </span>And
             <span className="color_primary_linear"> News </span>
           </h2>
@@ -25,7 +28,7 @@ const Blogs = () => {
           <Row className="justify-content-center mt-4">
             <Col md={6} lg={4} className="my-4">
               <Tilt>
-                <div className="p-2 border_effect bgBlure">
+                <div className="p-2 border_effect bgBlure" data-aos="fade-right">
                   <img src={Blogs1} alt="Blogs1" className="w-100" />
                   <div className="ff_montserrat px-4">
                     <p className="fs_xxsm mt-3">12 Dec 2022</p>
@@ -44,7 +47,7 @@ const Blogs = () => {
             </Col>
             <Col md={6} lg={4} className="my-4">
               <Tilt>
-                <div className="p-2 border_effect bgBlure">
+                <div className="p-2 border_effect bgBlure" data-aos="fade-up">
                   <img src={Blogs2} alt="Blogs2" className="w-100" />
                   <div className="ff_montserrat px-4">
                     <p className="fs_xxsm mt-3">12 Dec 2022</p>
@@ -63,7 +66,7 @@ const Blogs = () => {
             </Col>
             <Col md={6} lg={4} className="my-4">
               <Tilt>
-                <div className="p-2 border_effect bgBlure">
+                <div className="p-2 border_effect bgBlure" data-aos="fade-left">
                   <img src={Blogs3} alt="Blogs3" className="w-100" />
                   <div className="ff_montserrat px-4">
                     <p className="fs_xxsm mt-3">12 Dec 2022</p>

@@ -17,7 +17,7 @@ const Detail = () => {
         />
         <Container className="z_index_1">
           <Row className="  justify-content-center mt-4 ">
-            <Col md={6} lg={4} className="my-3">
+            <Col md={6} lg={4} className="my-3" data-aos="fade-right">
               <Tilt>
                 <img className="w-100" src={TwoPanda} alt="TwoPanda" />
               </Tilt>
@@ -26,7 +26,7 @@ const Detail = () => {
                 Time Customers
               </h3>
             </Col>
-            <Col md={6} lg={4} className="my-3">
+            <Col md={6} lg={4} className="my-3" data-aos="fade-up">
               <Tilt>
                 <img className="w-100" src={SinglePanda} alt="SinglePanda" />
               </Tilt>
@@ -38,7 +38,7 @@ const Detail = () => {
                 </span>{" "}
               </h3>
             </Col>{" "}
-            <Col md={6} lg={4} className="my-3">
+            <Col md={6} lg={4} className="my-3" data-aos="fade-left">
               <Tilt>
                 <img className="w-100" src={BabyPanda} alt="BabyPanda" />
               </Tilt>

@@ -23,10 +23,10 @@ const PopularItems = () => {
         <Container className=" my-lg-4">
           <Row className="justify-content-center my-5">
             <Col lg={6} className="text-center">
-              <h2 className="fs_4xl ff_philosopher fw-bold">
+              <h2 className="fs_4xl ff_philosopher fw-bold" data-aos="fade-right">
                 Most <span className="color_primary_linear">Popular </span>Items
               </h2>
-              <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0">
+              <p className="fs_sm ff_montserrat lh_156 mt-3 mb-0" data-aos="fade-left">
                 Pellentesque tincidunt fermentum mauris dignissim quam arcu. A
                 netus natoque urna vivamus faucibus. Sollicitudin et nisl.
               </p>
@@ -35,7 +35,7 @@ const PopularItems = () => {
           <Row className="justify-content-center my-5 ">
             <Col md={6} lg={3} className="my-4">
               <Tilt>
-                <div className="p-2  border_effect  bgBlure ff_montserrat">
+                <div className="p-2  border_effect  bgBlure ff_montserrat" data-aos="zoom-in-up">
                   <img
                     src={PopularItem1}
                     alt="PopularItem1"
@@ -51,7 +51,7 @@ const PopularItems = () => {
             </Col>
             <Col md={6} lg={3} className="my-4">
               <Tilt>
-                <div className="p-2  border_effect  bgBlure ff_montserrat">
+                <div className="p-2  border_effect  bgBlure ff_montserrat" data-aos="zoom-in-up">
                   <img
                     src={PopularItem2}
                     alt="PopularItem1"
@@ -67,7 +67,7 @@ const PopularItems = () => {
             </Col>
             <Col md={6} lg={3} className="my-4">
               <Tilt>
-                <div className="p-2  border_effect  bgBlure ff_montserrat">
+                <div className="p-2  border_effect  bgBlure ff_montserrat" data-aos="zoom-in-up">
                   <img
                     src={PopularItem3}
                     alt="PopularItem1"
@@ -83,7 +83,7 @@ const PopularItems = () => {
             </Col>
             <Col md={6} lg={3} className="my-4">
               <Tilt>
-                <div className="p-2  border_effect  bgBlure ff_montserrat">
+                <div className="p-2  border_effect  bgBlure ff_montserrat" data-aos="zoom-in-up">
                   <img
                     src={PopularItem3}
                     alt="PopularItem1"
