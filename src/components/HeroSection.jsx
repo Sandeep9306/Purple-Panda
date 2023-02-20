@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -22,22 +22,13 @@ import PopularItems from "./PopularItems";
 import Blogs from "./Blogs";
 import Detail from "./Detail";
 import StoreHours from "./StoreHours";
-import BackToTop from "react-back-to-top";
 
 const HeroSection = () => {
-
   return (
     <>
       <section className="bg_image d-flex flex-column  position-relative min_height">
         <div className="gradient_glow_left"></div>
-        <BackToTop
-          showOnScrollUp
-          showAt={100}
-          speed={1500}
-          easing="easeInOutQuint"
-        >
-          <span>scroll up</span>
-        </BackToTop>
+
         <Offers />
         <NavBar />
         <img
