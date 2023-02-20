@@ -7,7 +7,7 @@ const LowPrices = () => {
     <>
       <section className="my-5 py-5 d-flex align-items-center ">
         <Container className="position-relative  ">
-          <div className="bg_blure p-3" data-aos="fade-zoom-in">
+          <div className="bg_blure p-lg-3 pb-0 " data-aos="fade-zoom-in">
             <Row className="align-items-center text-center text-lg-start pt-5  pb-0  pb-lg-5 column-reverse justify-content-lg-around gradient">
               <Col lg={6} className="my-4 z_index_1 ps-lg-5 ">
                 <h2

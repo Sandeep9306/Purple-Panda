@@ -5,7 +5,6 @@ import Mail from "../Assets/images/svg/Mail.svg";
 import Contact from "../Assets/images/webp/ContactForm.webp";
 import StoreHours from "./StoreHours";
 import { ToastContainer, toast } from "react-toastify";
-
 import "react-toastify/dist/ReactToastify.css";
 
 const Form = () => {
