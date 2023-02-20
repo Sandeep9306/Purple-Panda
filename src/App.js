@@ -8,6 +8,8 @@ import { useEffect ,useState } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BsArrowUp } from "react-icons/bs";
+import About from './components/About';
+
 
 
 function App() {
@@ -55,8 +57,10 @@ function App() {
       <Routes>
        <Route exact path='/' element={<HomePage/>} />
       <Route exact path='/contact' element={<Contact/>} />
+      <Route exact path='/about' element={<HomePage/>} />
       </Routes>
     </div>
+     
   );
 }
 

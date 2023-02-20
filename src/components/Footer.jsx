@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FooterLogo from "../Assets/images/png/FooterLogo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,21 +21,27 @@ const Footer = () => {
                 products, fair pricing, and top-notch customer service
               </p>
               <ul className="d-flex ff_montserrat fs_sm justify-content-center align-items-center mb-0 ">
-                <li className="position-relative" data-aos="fade-ap">
+                <li className="position-relative" data-aos="fade-up">
                   <a href="" className="mx-4 bottom_line nav-link ">
                     SHOP
                   </a>
                 </li>
-                <li className="position-relative" data-aos="fade-ap">
-                  <a href="" className="mx-4 bottom_line nav-link">
+                <Link to="/about" className="nav-link">
+                  
+                <li className="position-relative" data-aos="fade-up">
+                  <a href="#about" className="mx-4 bottom_line nav-link">
                     ABOUT
                   </a>
                 </li>
-                <li className="position-relative" data-aos="fade-ap">
-                  <a href="" className="mx-4 bottom_line nav-link">
-                    CONTACT
-                  </a>
-                </li>
+                 </Link>
+
+                <Link to="/contact" className="nav-link">
+                  <li className="position-relative" data-aos="fade-up">
+                    <a href="" className="mx-4 bottom_line nav-link">
+                      CONTACT
+                    </a>
+                  </li>
+                </Link>
               </ul>
             </Col>
           </Row>

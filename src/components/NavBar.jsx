@@ -52,7 +52,7 @@ const NavBar = () => {
               </li>
               <li className="position-relative">
                 <a
-                  href=""
+                  href="#about"
                   className="mx-4 bottom_line ff_montserrat fs_sm  text nav-link"
                 >
                   ABOUT
@@ -101,7 +101,7 @@ const NavBar = () => {
                 <img src={Cart} alt="cart" className="me-4  ms-4 ms-xl-0 " />
               </a>
 
-              <button className=" bg_linear bg_hover text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md border-0"  >
+              <button className=" bg_linear bg_hover text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md border-0">
                 SIGN IN
               </button>
             </ul>

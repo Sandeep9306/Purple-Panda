@@ -12,7 +12,10 @@ const About = () => {
   <Tilt className="parallax-effect"></Tilt>;
   return (
     <>
-      <section className="  d-flex align-items-center about_Background position-relative">
+      <section
+        className="  d-flex align-items-center about_Background position-relative"
+        id="about"
+      >
         <img
           src={BottomLine}
           alt="BottomLine"
@@ -21,10 +24,7 @@ const About = () => {
         <Container className="z_index_1">
           <Row className="align-items-center text-center my-5 text-lg-start">
             <Col lg={6} className="my-3">
-              <div
-                className="p-3 p-lg-5  bg_blure position-relative line"
-              
-              >
+              <div className="p-3 p-lg-5  bg_blure position-relative line">
                 <h2
                   className="fs_4xl ff_philosopher fw-bold"
                   data-aos="fade-right"
@@ -57,24 +57,45 @@ const About = () => {
             </Col>
             <Col lg={6} className="my-3">
               <div className="Grid">
-                <Tilt  className="grid_items1 ">
-                  <img data-aos="fade-left" src={Cart} alt="Cart" className="mx-0 w-100" />
+                <Tilt className="grid_items1 ">
+                  <img
+                    data-aos="fade-left"
+                    src={Cart}
+                    alt="Cart"
+                    className="mx-0 w-100"
+                  />
                 </Tilt>
-                <Tilt  className="grid_items2">
-                  <img data-aos="fade-left" src={Uwell} alt="Uwell" className="mx-0 w-100" />
+                <Tilt className="grid_items2">
+                  <img
+                    data-aos="fade-left"
+                    src={Uwell}
+                    alt="Uwell"
+                    className="mx-0 w-100"
+                  />
                 </Tilt>
-                <Tilt  className="grid_items3">
-                  <img data-aos="fade-left"
+                <Tilt className="grid_items3">
+                  <img
+                    data-aos="fade-left"
                     src={MushroomsGroup}
                     alt="MushroomsGroup"
                     className=" w-100"
                   />
                 </Tilt>
-                <Tilt  className="grid_items4">
-                  <img data-aos="fade-left" src={Plant} alt="Plant" className="w-100" />
+                <Tilt className="grid_items4">
+                  <img
+                    data-aos="fade-left"
+                    src={Plant}
+                    alt="Plant"
+                    className="w-100"
+                  />
                 </Tilt>
-                <Tilt  className="grid_items5">
-                  <img data-aos="fade-left" src={CBOBox} alt="CBOBox" className="w-100" />
+                <Tilt className="grid_items5">
+                  <img
+                    data-aos="fade-left"
+                    src={CBOBox}
+                    alt="CBOBox"
+                    className="w-100"
+                  />
                 </Tilt>
               </div>
             </Col>

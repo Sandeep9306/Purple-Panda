@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Phone from "../Assets/images/svg/Phone.svg";
 import Mail from "../Assets/images/svg/Mail.svg";
 import Contact from "../Assets/images/png/ContactForm.png";
 import StoreHours from "./StoreHours";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const Form = () => {
+  const [data, setdata] = useState({
+    name: "",
+    last: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const FormSubmit = () => {
+    if (data.name && data.last && data.email && data.phone && data.message) {
+      setdata({ name: "", last: "", email: "", phone: "", message: "" });
+      toast.success("Form Submit Sucessfull");
+    } else {
+      toast.warn("Please Enter all Detail");
+    }
+  };
+
   return (
     <>
       <section>
@@ -53,61 +73,99 @@ const Form = () => {
                     </p>
                   </div>
                 </div>
-                <Row>
-                  <Col md={6} lg={6} className="mt-3">
-                    <input
-                      data-aos="zoom-in-up"
-                      type="text"
-                      placeholder="First name"
-                      className="rounded-2 w-100 border_purple bg-transparent p-2 text-white"
-                    />
-                  </Col>
-                  <Col md={6} lg={6} className="mt-3">
-                    <input
-                      data-aos="zoom-in-up"
-                      type="text"
-                      placeholder="Last name "
-                      className="rounded-2 w-100 border_purple bg-transparent p-2 text-white"
-                    />
-                  </Col>
-                  <Col md={6} lg={6} className="mt-3">
-                    <input
-                      data-aos="zoom-in-up"
-                      type="email"
-                      placeholder="Email address "
-                      className="rounded-2 w-100 border_purple bg-transparent p-2 text-white"
-                    />
-                  </Col>
-                  <Col md={6} lg={6} className="mt-3">
-                    <input
-                      data-aos="zoom-in-up"
-                      type="number"
-                      placeholder="Phone number "
-                      className="rounded-2 w-100 border_purple bg-transparent p-2 text-white"
-                    />
-                  </Col>
-                  <Col lg={12} className="mt-3">
-                    <textarea
-                      data-aos="zoom-in-up"
-                      rows={4}
-                      type="text"
-                      placeholder="Message... "
-                      className="rounded-2 w-100 border_purple bg-transparent p-2  text-white "
-                    />
-                  </Col>
-                </Row>
-                <button
-                  className=" bg_linear bg_hover text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md border-0 mt-5 "
-                  data-aos="fade-left"
+
+                <form
+                  action=""
+                  onSubmit={(e) => e.preventDefault(FormSubmit())}
                 >
-                  SIGN IN
-                </button>
+                  <Row>
+                    <Col lg={6}>
+                      <input
+                        data-aos="zoom-in-up"
+                        value={data.name}
+                        name="name"
+                        autoComplete="false"
+                        onChange={(e) =>
+                          setdata({ ...data, name: e.target.value })
+                        }
+                        type="text"
+                        placeholder="First name"
+                        className="rounded-2  w-100 my-3  border_purple bg-transparent p-2 text-white"
+                      />
+                    </Col>
+                    <Col lg={6}>
+                      <input
+                        data-aos="zoom-in-up"
+                        value={data.last}
+                        name="last"
+                        autoComplete="false"
+                        onChange={(e) =>
+                          setdata({ ...data, last: e.target.value })
+                        }
+                        type="text"
+                        placeholder="Last name "
+                        className="rounded-2  w-100 my-3  border_purple bg-transparent p-2 text-white"
+                      />
+                    </Col>
+                    <Col lg={6}>
+                      <input
+                        data-aos="zoom-in-up"
+                        value={data.email}
+                        name="email"
+                        autoComplete="false"
+                        onChange={(e) =>
+                          setdata({ ...data, email: e.target.value })
+                        }
+                        type="email"
+                        placeholder="Email address "
+                        className="rounded-2  w-100 my-3  border_purple bg-transparent p-2 text-white"
+                      />
+                    </Col>
+                    <Col lg={6}>
+                      <input
+                        data-aos="zoom-in-up"
+                        value={data.phone}
+                        name="phone"
+                        autoComplete="false"
+                        onChange={(e) =>
+                          setdata({ ...data, phone: e.target.value })
+                        }
+                        type="number"
+                        placeholder="Phone number "
+                        className="rounded-2  w-100 my-3  border_purple bg-transparent p-2 text-white"
+                      />
+                    </Col>
+                    <Col lg={12}>
+                      <textarea
+                        value={data.message}
+                        data-aos="zoom-in-up"
+                        name="message"
+                        rows={4}
+                        autoComplete="false"
+                        onChange={(e) =>
+                          setdata({ ...data, message: e.target.value })
+                        }
+                        type="text"
+                        placeholder="Message... "
+                        className="rounded-2 w-100 border_purple bg-transparent p-2 w-100 text-white "
+                      />
+                    </Col>
+                  </Row>
+
+                  <button
+                    className=" bg_linear bg_hover text-white ff_montserrat fw-bold rounded-5 px-5 py-3 fs_md border-0 mt-5 "
+                    data-aos="fade-left"
+                  >
+                    SIGN IN
+                  </button>
+                </form>
               </div>
             </Col>
           </Row>
         </Container>
         <StoreHours />
       </section>
+      <ToastContainer />
     </>
   );
 };
