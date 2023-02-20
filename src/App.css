@@ -5,7 +5,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-
+  scroll-behavior: smooth;
 }
 :root{
 
@@ -115,6 +115,58 @@
   height: 24px;
   width: 24px;
 }
+.top_btn{
+
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background: var(--bg_primary_linear);
+  color: white;
+  cursor: pointer; 
+  padding: 20px; 
+  border-radius: 30px;
+  animation: bounce 1s linear  infinite alternate ;
+}
+@keyframes bounce {
+  0%{
+    transform: translateY(0%);
+  }
+   100%{
+    transform: translateY(20%);
+  }
+}
+
+.loader-wrapper {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #0b0b0b;
+      display: grid;
+      place-items: center;
+    }
+
+    .loader {
+      border: 16px solid var(--bg_primary);
+      border-top: 16px solid white;
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }}
 
 .body_bg_dark{
   background-color: #07031D;
@@ -236,10 +288,10 @@
   -webkit-text-stroke: 1px white;
 }
 .bg_hover{
-   transition:0.3s linear
+   transition:0.3s linear !important
 }
 .bg_hover:hover{
-  box-shadow: 0px 2px 10px var(--bg_primary);
+  box-shadow: 0px 2px 10px var(--bg_primary) !important;
  }
 .view_menu{
   opacity: 1;
@@ -267,6 +319,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   backdrop-filter: blur(8px);
   border-radius: 10px;
   border: 1px solid #411A68;
+  
 }
 .circle{
   height: 16px;
@@ -276,6 +329,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .list_style{
   list-style: disc;
+
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -332,6 +386,7 @@ input::-webkit-inner-spin-button {
 }
 .border_bottom{
   border-bottom:  1px solid #DD22E6;
+  
 }
 .Footer_background{
   background: url("./Assets/images/webp/Footer.webp  ");
@@ -371,6 +426,7 @@ bottom: -10%;
 }
 .gradient{
   position: relative;
+
 }
 .gradient::after{
   position: absolute;
@@ -389,9 +445,11 @@ bottom: -10%;
 .gradient:hover::after{
   opacity: 1;
   transition: 0.2s linear;
+
 }
 .gradient_2{
   position: relative;
+
 }
 .gradient_2::after{
   position: absolute;
@@ -410,24 +468,26 @@ bottom: -10%;
 .gradient_2:hover::after{
   opacity: 1;
   transition: 0.2s linear;
+
 }
 .icon_hover{
-  transition: 0.2s !important;
+  transition: 0.2s;
 }
 .icon_hover:hover{
-   transition: 0.2s linear !important;
-  transform: scale(1.1) !important;
+  transform: scale(1.1);
 }
 
 .bounce_effect_2{
-  transition: 0.2s linear;
+  transition: 0.2s linear ;
+
 }
 .bounce_effect{
-  transition: 0.2s linear;
+  transition: 0.2s linear ;
+
 }
 .bounce_effect:hover{
-transition: 0.2s linear;
-transform: translatey(0% , -30%);
+transition: 0.2s linear ;
+transform: translatey(0% , -30%) ;
 }
 .gradient_circle{
   position: relative;
@@ -443,6 +503,7 @@ transform: translatey(0% , -30%);
   border-radius: 100px;
   transform: translate(-50% , -50%);
   filter: blur(150px);
+  
 }
   
 .BsArrowUp{
@@ -450,7 +511,7 @@ transform: translatey(0% , -30%);
 }
 .bounce_effect_2:hover{
 transition: 0.2s linear;
-transform: translate(0% , -10%);
+transform: translate(0% , -10%) ;
 }
 .border_effect{
    transition: 0.2s linear;
@@ -541,59 +602,9 @@ transform: translate(0% , -10%);
   border-radius: 10px; 
   border-radius: 50px;
 }
-.loader-wrapper {
-      width: 100%;
-      height: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color: #0b0b0b;
-      display: grid;
-      place-items: center;
-    }
 
-    .loader {
-      border: 16px solid var(--bg_primary);
-      border-top: 16px solid white;
-      border-radius: 50%;
-      width: 140px;
-      height: 140px;
-      animation: spin 1s linear infinite;
-    }
 
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
 
-      100% {
-        transform: rotate(360deg);
-      }}
-
-.top_btn{
-
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none; 
-  background: var(--bg_primary_linear);
-  color: white;
-  cursor: pointer; 
-  padding: 20px; 
-  border-radius: 30px;
-  animation: bounce 1s linear  infinite alternate ;
-}
-
-@keyframes bounce {
-  0%{
-    transform: translateY(0%);
-  }
-   100%{
-    transform: translateY(20%);
-  }
-}
 /* Media Queries */
 
 @media (min-width:992px ) {

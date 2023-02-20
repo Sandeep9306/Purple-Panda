@@ -18,85 +18,36 @@ const Features = () => {
             <Col lg={5} data-aos="fade-right">
               <img src={Samples} alt="Samples" className="w-100 z_index_1" />
             </Col>
-            <Col sm={6} lg={3}>
+            <Col sm={6} lg={3} data-aos="fade-left">
               <div className="d-flex align-items-center my-4">
-                <img
-                  data-aos="fade-left"
-                  className="icon_hover"
-                  src={Devilery}
-                  alt="Devilery"
-                />
-                <p className="ms-3 mb-0" data-aos="fade-left">
-                  Same Day Delivery
-                </p>
+                <img className="icon_hover" src={Devilery} alt="Devilery" />
+                <p className="ms-3 mb-0">Same Day Delivery</p>
               </div>
               <div className="d-flex align-items-center my-4">
-                <img
-                  data-aos="fade-left"
-                  className="icon_hover"
-                  src={Packing}
-                  alt="Packing"
-                />
-                <p className="ms-3 mb-0" data-aos="fade-left">
-                  Discreet packaging
-                </p>
+                <img className="icon_hover" src={Packing} alt="Packing" />
+                <p className="ms-3 mb-0">Discreet packaging</p>
               </div>
               <div className="d-flex align-items-center my-4">
-                <img
-                  data-aos="fade-left"
-                  className="icon_hover"
-                  src={Premium}
-                  alt="Premium"
-                />
-                <p className="ms-3 mb-0" data-aos="fade-left">
-                  Premium Marijuana Buds
-                </p>
+                <img className="icon_hover" src={Premium} alt="Premium" />
+                <p className="ms-3 mb-0">Premium Marijuana Buds</p>
               </div>
               <div className="d-flex align-items-center my-4">
-                <img
-                  data-aos="fade-left"
-                  className="icon_hover"
-                  src={Reward}
-                  alt="Reward"
-                />
-                <p className="ms-3 mb-0" data-aos="fade-left">
-                  Collect Rewards
-                </p>
+                <img className="icon_hover" src={Reward} alt="Reward" />
+                <p className="ms-3 mb-0">Collect Rewards</p>
               </div>
             </Col>
-            <Col sm={6} lg={3}>
+            <Col sm={6} lg={3} data-aos="fade-left">
               <div className="d-flex align-items-center my-4">
-                <img
-                  data-aos="fade-left"
-                  className="icon_hover"
-                  src={Email}
-                  alt="Email"
-                />
-                <p className="ms-3 mb-0" data-aos="fade-left">
-                  Canada Wide Mail Orders
-                </p>
+                <img className="icon_hover" src={Email} alt="Email" />
+                <p className="ms-3 mb-0">Canada Wide Mail Orders</p>
               </div>
               <div className="d-flex align-items-center my-4">
-                <img
-                  data-aos="fade-left"
-                  className="icon_hover"
-                  src={Person}
-                  alt="Person"
-                />
-                <p className="ms-3 mb-0" data-aos="fade-left">
-                  19+
-                </p>
+                <img className="icon_hover" src={Person} alt="Person" />
+                <p className="ms-3 mb-0">19+</p>
               </div>
               <div className="d-flex align-items-center my-4">
-                <img
-                  data-aos="fade-left"
-                  className="icon_hover"
-                  src={Secure}
-                  alt="Secure"
-                />
-                <p className="ms-3 mb-0" data-aos="fade-left">
-                  Secure Transactions
-                </p>
+                <img className="icon_hover" src={Secure} alt="Secure" />
+                <p className="ms-3 mb-0">Secure Transactions</p>
               </div>
             </Col>
           </Row>
