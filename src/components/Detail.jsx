@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import TwoPanda from "../Assets/images/png/TwoPanda.png";
-import SinglePanda from "../Assets/images/png/SinglePanda.png";
-import BabyPanda from "../Assets/images/png/BabyPanda.png";
-import BottomLine from "../Assets/images/png/BottomGradient.png";
+import TwoPanda from "../Assets/images/webp/TwoPanda.webp";
+import SinglePanda from "../Assets/images/webp/SinglePanda.webp";
+import BabyPanda from "../Assets/images/webp/BabyPanda.webp";
+import BottomLine from "../Assets/images/webp/BottomGradient.webp";
 import Tilt from "react-parallax-tilt";
 const Detail = () => {
   <Tilt className="parallax-effect"></Tilt>;

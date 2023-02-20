@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Phone from "../Assets/images/svg/Phone.svg";
 import Mail from "../Assets/images/svg/Mail.svg";
-import Contact from "../Assets/images/png/ContactForm.png";
+import Contact from "../Assets/images/webp/ContactForm.webp";
 import StoreHours from "./StoreHours";
 import { ToastContainer, toast } from "react-toastify";
 

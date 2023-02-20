@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Logo from "../Assets/images/png/Logo.png";
+import Logo from "../Assets/images/webp/Logo.webp";
 import Search from "../Assets/images/svg/Search.svg";
 import Cart from "../Assets/images/svg/Cart.svg";
 // import Tilt from "react-parallax-tilt";

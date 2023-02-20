@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Blogs1 from "../Assets/images/png/Blog1.png";
-import Blogs2 from "../Assets/images/png/Blog2.png";
-import Blogs3 from "../Assets/images/png/Blog3.png";
-import BottomImage from "../Assets/images/png/bottomImage.png";
+import Blogs1 from "../Assets/images/webp/Blog1.webp";
+import Blogs2 from "../Assets/images/webp/Blog2.webp";
+import Blogs3 from "../Assets/images/webp/Blog3.webp";
+import BottomImage from "../Assets/images/webp/bottomImage.webp";
 import Tilt from "react-parallax-tilt";
 
 const Blogs = () => {

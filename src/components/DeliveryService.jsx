@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import RightSmallFlower from "../Assets/images/png/RightSmallFlower.png";
-import LeftSmallFlower from "../Assets/images/png/LeftSmallFlower.png";
+import RightSmallFlower from "../Assets/images/webp/RightSmallFlower.webp";
+import LeftSmallFlower from "../Assets/images/webp/LeftSmallFlower.webp";
 
 const DeliveryService = () => {
   return (

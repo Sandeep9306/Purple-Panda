@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import MushroomsGroup from "../Assets/images/png/MushroomsGroup.png";
-import Uwell from "../Assets/images/png/Uwell.png";
-import Plant from "../Assets/images/png/Plant.png";
-import BottomLine from "../Assets/images/png/BottomGradient.png";
-import Cart from "../Assets/images/png/CartPlant.png";
-import CBOBox from "../Assets/images/png/CBOBox.png";
+import MushroomsGroup from "../Assets/images/webp/MushroomsGroup.webp";
+import Uwell from "../Assets/images/webp/Uwell.webp";
+import Plant from "../Assets/images/webp/Plant.webp";
+import BottomLine from "../Assets/images/webp/BottomGradient.webp";
+import Cart from "../Assets/images/webp/CartPlant.webp";
+import CBOBox from "../Assets/images/webp/CBOBox.webp";
 import Tilt from "react-parallax-tilt";
 
 const About = () => {

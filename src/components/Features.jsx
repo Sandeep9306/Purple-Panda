@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Samples from "../Assets/images/png/samples.png";
+import Samples from "../Assets/images/webp/samples.webp";
 import Devilery from "../Assets/images/svg/Devilery.svg";
 import Packing from "../Assets/images/svg/Packing.svg";
 import Premium from "../Assets/images/svg/Premium.svg";

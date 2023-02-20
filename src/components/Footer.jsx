@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import FooterLogo from "../Assets/images/png/FooterLogo.png";
+import FooterLogo from "../Assets/images/webp/FooterLogo.webp";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

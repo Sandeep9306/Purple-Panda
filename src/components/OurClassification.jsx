@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Star from "../Assets/images/svg/star.svg";
-import ClassificationPlant from "../Assets/images/png/ClassificationPlant.png";
+import ClassificationPlant from "../Assets/images/webp/ClassificationPlant.webp";
 
 const OurClassification = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Mushroom from "../Assets/images/png/Mushroom.png";
+import Mushroom from "../Assets/images/webp/Mushroom.webp";
 
 const LowPrices = () => {
   return (

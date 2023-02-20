@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Cannabis from "../Assets/images/png/CannabisLeaves.png";
+import Cannabis from "../Assets/images/webp/CannabisLeaves.webp";
 
 const ExpressDelivery = () => {
   return (

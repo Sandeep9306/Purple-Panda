@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import RightFlower from "../Assets/images/png/RightFlower.png";
-import LeftFlower from "../Assets/images/png/LeftFlower.png";
+import RightFlower from "../Assets/images/webp/RightFlower.webp";
+import LeftFlower from "../Assets/images/webp/LeftFlower.webp";
 
 const OurRange = () => {
   return (

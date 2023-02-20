@@ -188,12 +188,12 @@
   line-height: 156%;
 }
 .bg_image{
-  background-image: url("./Assets/images/png/HeroBackground_image.png");
+  background-image: url("./Assets/images/webp/HeroBackground_image.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .about_Background{
-  background-image: url("./Assets/images/png/AboutBackground.png");
+  background-image: url("./Assets/images/webp/AboutBackground.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -340,7 +340,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .mailOrder_background{
-  background: url("./Assets/images/png/MailOrders.png");
+  background: url("./Assets/images/webp/MailOrders.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -353,27 +353,27 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   opacity: 70%;
 }
 .Alert_background{
-  background: url("./Assets/images/png/SpaceBackground.png");
+  background: url("./Assets/images/webp/SpaceBackground.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Classification_background{
-  background: url("./Assets/images/png/Classification.png");
+  background: url("./Assets/images/webp/Classification.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Popular_Items_background{
-  background: url("./Assets/images/png/PopulrItemsBackground.png");
+  background: url("./Assets/images/webp/PopulrItemsBackground.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Blog_background{
-  background: url("./Assets/images/png/Blogs.png");
+  background: url("./Assets/images/webp/Blogs.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Details_background{
-  background: url("./Assets/images/png/Details.png  ");
+  background: url("./Assets/images/webp/Details.webp  ");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -390,12 +390,12 @@ input::-webkit-inner-spin-button {
   /* margin: auto; */
 }
 .Footer_background{
-  background: url("./Assets/images/png/Footer.png  ");
+  background: url("./Assets/images/webp/Footer.webp  ");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Contact_background{
-  background: url("./Assets/images/png/Contact.png");
+  background: url("./Assets/images/webp/Contact.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }

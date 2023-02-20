@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import BlackGold from "../Assets/images/png/BlackGold.png";
-import TBBS from "../Assets/images/png/TBBS.png";
-import MedicalCannabis from "../Assets/images/png/MedicalCannabis.png";
-import PlantLeaf from "../Assets/images/png/PlantLeaf.png";
-import Microbites from "../Assets/images/png/Microbites.png";
+import BlackGold from "../Assets/images/webp/BlackGold.webp";
+import TBBS from "../Assets/images/webp/TBBS.webp";
+import MedicalCannabis from "../Assets/images/webp/MedicalCannabis.webp";
+import PlantLeaf from "../Assets/images/webp/PlantLeaf.webp";
+import Microbites from "../Assets/images/webp/Microbites.webp";
 import Tilt from "react-parallax-tilt";
-import BottomLine from "../Assets/images/png/BottomGradient.png";
+import BottomLine from "../Assets/images/webp/BottomGradient.webp";
 
 const Cannabis = () => {
   <Tilt className="parallax-effect"></Tilt>;

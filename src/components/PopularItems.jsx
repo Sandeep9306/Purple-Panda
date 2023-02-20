@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import PopularItem1 from "../Assets/images/png/PopularItem1.png";
-import PopularItem2 from "../Assets/images/png/PopularItem2.png";
-import PopularItem3 from "../Assets/images/png/PopularItem3.png";
-import BottomImage from "../Assets/images/png/bottomImage.png";
+import PopularItem1 from "../Assets/images/webp/PopularItem1.webp";
+import PopularItem2 from "../Assets/images/webp/PopularItem2.webp";
+import PopularItem3 from "../Assets/images/webp/PopularItem3.webp";
+import BottomImage from "../Assets/images/webp/bottomImage.webp";
 import Tilt from "react-parallax-tilt";
 const PopularItems = () => {
   <Tilt className="parallax-effect"></Tilt>;

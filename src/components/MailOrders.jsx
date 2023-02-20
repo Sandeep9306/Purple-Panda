@@ -6,7 +6,7 @@ import Payment from "../Assets/images/svg/Payment.svg";
 import NumberOne from "../Assets/images/svg/NumberOne.svg";
 import NumberTwo from "../Assets/images/svg/NumberTwo.svg";
 import NumberThree from "../Assets/images/svg/NumberThree.svg";
-import BottomLine from "../Assets/images/png/BottomGradient.png";
+import BottomLine from "../Assets/images/webp/BottomGradient.webp";
 
 const MailOrders = () => {
   return (
